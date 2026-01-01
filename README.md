@@ -57,6 +57,7 @@ A complete event booking system built with Node.js, Express, and MongoDB.
 
 
 ## 🔗 **API Endpoints**
+<img width="1908" height="990" alt="Screenshot 2026-01-01 171137" src="https://github.com/user-attachments/assets/ad9e7738-50e7-4ada-a81d-c340b1744283" />
 
 ### **Authentication**
 | Method | Endpoint | Description | Auth Required |
