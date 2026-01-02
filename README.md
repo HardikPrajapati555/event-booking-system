@@ -62,27 +62,27 @@ A complete event booking system built with Node.js, Express, and MongoDB.
 ### **Authentication**
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
-| POST | `/auth/register` | Register new user |
-| POST | `/auth/login` | User login |
-| GET | `/auth/profile` | Get user profile  |
-| POST | `/auth/logout` | Logout user  |
+| POST | `/api/v1/auth/register` | Register new user |
+| POST | `/api/v1/v1/auth/login` | User login |
+| GET | `/api/v1/auth/profile` | Get user profile  |
+| POST | `/api/v1/auth/logout` | Logout user  |
 
 ### **Events**
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
-| GET | `/events` | Get all events (filterable) |
-| GET | `/events/:id` | Get single event |
-| POST | `/events` | Create event | (Admin) |
-| PUT | `/events/:id` | Update event |  (Admin/Organizer) |
-| DELETE | `/events/:id` | Delete event |  (Admin/Organizer) |
+| GET | `/api/v1/events` | Get all events (filterable) |
+| GET | `/api/v1/events/:id` | Get single event |
+| POST | `/api/v1/events` | Create event | (Admin) |
+| PUT | `/api/v1/events/:id` | Update event |  (Admin/Organizer) |
+| DELETE | `/api/v1/events/:id` | Delete event |  (Admin/Organizer) |
 
 ### **Bookings**
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
-| POST | `/bookings` | Create booking |  |
-| GET | `/bookings/my-bookings` | Get user bookings |  |
-| PUT | `/bookings/:id/cancel` | Cancel booking |  |
-| GET | `/bookings/export` | Export as CSV | (Admin) |
+| POST | `/api/v1/bookings` | Create booking |  |
+| GET | `/api/v1/bookings/my-bookings` | Get user bookings |  |
+| PUT | `/api/v1/bookings/:id/cancel` | Cancel booking |  |
+| GET | `/api/v1/bookings/export` | Export as CSV | (Admin) |
 
 
  Admin Access
